@@ -32,7 +32,7 @@ Console.WriteLine(messages.Count(m => rule0Matches.Contains(m)));
 //
 // Rules 8 and 11 are only ever referenced from rule 0.
 // The combined rule 0 becomes
-// (42)*(m) (31)*(n) where m > n
+// (42)*m (31)*n where m > n
 //
 // Observation #2:
 // All matches for rules 31 and 42 have the same length (8).
